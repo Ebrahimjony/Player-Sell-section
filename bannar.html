@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bannar.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bannar">
+    <h4 >Bugget: $ <span id="bugget">2000</span></h4>
+    <h4>Count: <span id="count">0</span></h4>
+    <h4>Left:<span id="left">6</span></h4>
+  </div>
+
+  <div class="containert-flex">
+  <div class="flex">
+       <div class="border">
+        <h3>Tamim Qukbal</h3>
+        <h5>Price:$<span>300</span></h5>
+        <h6>Catagory: <span> Batter</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Shakib al Hassan</h3>
+        <h5>Price:$ <span>300</span></h5>
+        <h6>Catagory:<span> All-Rounder</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Musfiqur Rohim</h3>
+        <h5>Price:$ <span>300</span></h5>
+        <h6>Catagory:<span> Batter</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Shanto</h3>
+        <h5>Price:$ <span>200</span></h5>
+        <h6>Catagory: <span> Batter</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Touhid Ridoiy</h3>
+        <h5>Price:$ <span>200</span></h5>
+        <h6>Catagory:<span> Batter</span></h6>
+        <button  class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>mostafizur Rohman</h3>
+        <h5>Price:$ <span>300</span></h5>
+        <h6>Catagory: <span> Bowler</span></h6>
+        <button  class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Miraz</h3>
+        <h5>Price:$ <span>200</span></h5>
+        <h6>Catagory:<span> All-Rounder</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Mahmuddula</h3>
+        <h5>Price:$ <span>200</span></h5>
+        <h6>Catagory: <span> Batter</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       <div class="border">
+        <h3>Taskin Ahamod</h3>
+        <h5>Price:$ <span>200</span></h5>
+        <h6>Catagory:<span> Bowler</span></h6>
+        <button class="add-btn">Add to Card</button>
+       </div>
+       </div>
+    <div class="my-card">
+      <h2>My card</h2>
+      <div class="card-flex">
+        <h3 class="card-space">Name</h3>
+        <h3 class="card-space">Price</h3>
+        <h3 class="card-space">Catagory</h3>
+      </div>
+      <div id="selected-player"></div>
+      <div>
+        <h2 >Total Cost:$ <span id="total-cost">0</span></h2>
+      </div>
+      <div class="card-flex"> 
+        <input type="text" name="" id="coupon-code" placeholder="coupon code">
+        <button onclick="grahdTotal('apply-btn')" id="apply-btn" class="apply-btn">Apply</button>
+      </div>
+      <div>
+        <h2>Grand Total:$ <span id="grand-total">0</span></h2>
+      </div>
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
